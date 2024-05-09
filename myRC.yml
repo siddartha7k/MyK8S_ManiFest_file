@@ -1,5 +1,4 @@
 apiVersion: v1
-kind: v1
 kind: ReplicationController
 metadata:
   name: myapp-rc
@@ -11,7 +10,7 @@ spec:
     metadata:
       name: myapp
       labels:
-        app: myapp
+        app: myappclear
     spec:
       containers:
         - name: myapp-container
