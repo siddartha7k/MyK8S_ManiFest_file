@@ -7,10 +7,9 @@ spec:
   selector:
     app: myapp
   template:
-    metadata:
-      name: myapp
+    metadata:   
       labels:
-        app: myappclear
+        app: myapp
     spec:
       containers:
         - name: myapp-container
